@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D40B733529CD2E0300B63B69 /* fitlog Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D40B733429CD2E0300B63B69 /* fitlog Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D40B733529CD2E0300B63B69 /* Fitlog Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D40B733429CD2E0300B63B69 /* Fitlog Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D40B733A29CD2E0300B63B69 /* fitlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B733929CD2E0300B63B69 /* fitlogApp.swift */; };
 		D40B733C29CD2E0300B63B69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B733B29CD2E0300B63B69 /* ContentView.swift */; };
 		D40B733E29CD2E0300B63B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40B733D29CD2E0300B63B69 /* Assets.xcassets */; };
 		D40B734129CD2E0300B63B69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40B734029CD2E0300B63B69 /* Preview Assets.xcassets */; };
+		D40B734E29CD33C400B63B69 /* journalData.json in Resources */ = {isa = PBXBuildFile; fileRef = D40B734D29CD33C400B63B69 /* journalData.json */; };
+		D40B735529CD34A000B63B69 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B735429CD34A000B63B69 /* ModelData.swift */; };
+		D40B735729CD37EF00B63B69 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B735629CD37EF00B63B69 /* JournalEntry.swift */; };
+		D40B735929CD410500B63B69 /* JournalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B735829CD410500B63B69 /* JournalDetail.swift */; };
+		D40B735C29CD648800B63B69 /* JournalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B735B29CD648800B63B69 /* JournalRow.swift */; };
+		D40B736029CD677300B63B69 /* JournalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B735F29CD677300B63B69 /* JournalList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D40B733529CD2E0300B63B69 /* fitlog Watch App.app in Embed Watch Content */,
+				D40B733529CD2E0300B63B69 /* Fitlog Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,12 +45,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D40B732E29CD2E0200B63B69 /* fitlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D40B733429CD2E0300B63B69 /* fitlog Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fitlog Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B732E29CD2E0200B63B69 /* Fitlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40B733429CD2E0300B63B69 /* Fitlog Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitlog Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40B733929CD2E0300B63B69 /* fitlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitlogApp.swift; sourceTree = "<group>"; };
 		D40B733B29CD2E0300B63B69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D40B733D29CD2E0300B63B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40B734029CD2E0300B63B69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D40B734D29CD33C400B63B69 /* journalData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = journalData.json; sourceTree = "<group>"; };
+		D40B735429CD34A000B63B69 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D40B735629CD37EF00B63B69 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		D40B735829CD410500B63B69 /* JournalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetail.swift; sourceTree = "<group>"; };
+		D40B735B29CD648800B63B69 /* JournalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRow.swift; sourceTree = "<group>"; };
+		D40B735F29CD677300B63B69 /* JournalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +81,8 @@
 		D40B732F29CD2E0200B63B69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D40B732E29CD2E0200B63B69 /* fitlog.app */,
-				D40B733429CD2E0300B63B69 /* fitlog Watch App.app */,
+				D40B732E29CD2E0200B63B69 /* Fitlog.app */,
+				D40B733429CD2E0300B63B69 /* Fitlog Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +90,10 @@
 		D40B733829CD2E0300B63B69 /* fitlog Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				D40B734B29CD2E8800B63B69 /* Views */,
 				D40B733929CD2E0300B63B69 /* fitlogApp.swift */,
+				D40B734F29CD342600B63B69 /* Model */,
+				D40B734C29CD2F3C00B63B69 /* Resources */,
 				D40B733B29CD2E0300B63B69 /* ContentView.swift */,
 				D40B733D29CD2E0300B63B69 /* Assets.xcassets */,
 				D40B733F29CD2E0300B63B69 /* Preview Content */,
@@ -94,12 +109,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D40B734B29CD2E8800B63B69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D40B735A29CD411700B63B69 /* Journals */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D40B734C29CD2F3C00B63B69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D40B734D29CD33C400B63B69 /* journalData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D40B734F29CD342600B63B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D40B735429CD34A000B63B69 /* ModelData.swift */,
+				D40B735629CD37EF00B63B69 /* JournalEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D40B735A29CD411700B63B69 /* Journals */ = {
+			isa = PBXGroup;
+			children = (
+				D40B735829CD410500B63B69 /* JournalDetail.swift */,
+				D40B735B29CD648800B63B69 /* JournalRow.swift */,
+				D40B735F29CD677300B63B69 /* JournalList.swift */,
+			);
+			path = Journals;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D40B732D29CD2E0200B63B69 /* fitlog */ = {
+		D40B732D29CD2E0200B63B69 /* Fitlog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D40B734829CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "fitlog" */;
+			buildConfigurationList = D40B734829CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "Fitlog" */;
 			buildPhases = (
 				D40B732C29CD2E0200B63B69 /* Resources */,
 				D40B734729CD2E0300B63B69 /* Embed Watch Content */,
@@ -109,14 +159,14 @@
 			dependencies = (
 				D40B733729CD2E0300B63B69 /* PBXTargetDependency */,
 			);
-			name = fitlog;
+			name = Fitlog;
 			productName = fitlog;
-			productReference = D40B732E29CD2E0200B63B69 /* fitlog.app */;
+			productReference = D40B732E29CD2E0200B63B69 /* Fitlog.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		D40B733329CD2E0300B63B69 /* fitlog Watch App */ = {
+		D40B733329CD2E0300B63B69 /* Fitlog Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D40B734429CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "fitlog Watch App" */;
+			buildConfigurationList = D40B734429CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "Fitlog Watch App" */;
 			buildPhases = (
 				D40B733029CD2E0300B63B69 /* Sources */,
 				D40B733129CD2E0300B63B69 /* Frameworks */,
@@ -126,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = "fitlog Watch App";
+			name = "Fitlog Watch App";
 			productName = "fitlog Watch App";
-			productReference = D40B733429CD2E0300B63B69 /* fitlog Watch App.app */;
+			productReference = D40B733429CD2E0300B63B69 /* Fitlog Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,8 +212,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D40B732D29CD2E0200B63B69 /* fitlog */,
-				D40B733329CD2E0300B63B69 /* fitlog Watch App */,
+				D40B732D29CD2E0200B63B69 /* Fitlog */,
+				D40B733329CD2E0300B63B69 /* Fitlog Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +232,7 @@
 			files = (
 				D40B734129CD2E0300B63B69 /* Preview Assets.xcassets in Resources */,
 				D40B733E29CD2E0300B63B69 /* Assets.xcassets in Resources */,
+				D40B734E29CD33C400B63B69 /* journalData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40B735C29CD648800B63B69 /* JournalRow.swift in Sources */,
 				D40B733C29CD2E0300B63B69 /* ContentView.swift in Sources */,
+				D40B735929CD410500B63B69 /* JournalDetail.swift in Sources */,
 				D40B733A29CD2E0300B63B69 /* fitlogApp.swift in Sources */,
+				D40B736029CD677300B63B69 /* JournalList.swift in Sources */,
+				D40B735729CD37EF00B63B69 /* JournalEntry.swift in Sources */,
+				D40B735529CD34A000B63B69 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +258,7 @@
 /* Begin PBXTargetDependency section */
 		D40B733729CD2E0300B63B69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D40B733329CD2E0300B63B69 /* fitlog Watch App */;
+			target = D40B733329CD2E0300B63B69 /* Fitlog Watch App */;
 			targetProxy = D40B733629CD2E0300B63B69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D40B734429CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "fitlog Watch App" */ = {
+		D40B734429CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "Fitlog Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D40B734529CD2E0300B63B69 /* Debug */,
@@ -428,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D40B734829CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "fitlog" */ = {
+		D40B734829CD2E0300B63B69 /* Build configuration list for PBXNativeTarget "Fitlog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D40B734929CD2E0300B63B69 /* Debug */,

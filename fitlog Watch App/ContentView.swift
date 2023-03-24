@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Tab = .journal
+    
+    enum Tab {
+        case journal
+        case workout
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        JournalList()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
